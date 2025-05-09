@@ -1,0 +1,52 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #eafbea;
+    margin: 0;
+    padding: 0;
+    list-style-position: inside
+}
+  
+header {
+    background-color: #2f855a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #38a169;
+    text-align: center;
+    padding: 10px;
+}
+  
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+  
+main {
+    padding: 20px;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+.content {
+    text-align: center;
+    background-color: #f0fff4 ;
+}
+
+img{
+    width: 185px; 
+    height: 273px;
+}
+
+footer {
+    background-color: #dfe6e9;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}

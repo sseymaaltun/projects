@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Google!</title>
+  <style>
+    body {
+      background: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    .logo {
+      margin-top: 30px;
+    }
+
+    .search-bar {
+      background-color: #f2f2f2;
+      padding: 10px;
+      margin: 20px auto;
+      width: 600px;
+    }
+
+    .search-bar input[type="text"] {
+      width: 250px;
+      padding: 3px;
+    }
+
+    .search-bar input[type="submit"] {
+      margin-left: 5px;
+    }
+
+    .content {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+
+    .column {
+      width: 200px;
+      padding: 10px;
+      font-size: 14px;
+    }
+
+    .left {
+      background-color: #aef0ea;
+    }
+
+    .center {
+      background-color: #b0e0e6;
+      border-left: 1px solid white;
+      border-right: 1px solid white;
+    }
+
+    .right {
+      background-color: #66b2a3;
+      color: black;
+    }
+
+    .right input[type="text"] {
+      width: 140px;
+      padding: 2px;
+      margin-top: 5px;
+    }
+
+    .right input[type="submit"] {
+      margin-top: 5px;
+    }
+
+    .footer {
+      margin: 20px 0;
+      font-size: 12px;
+    }
+
+    a {
+      color: blue;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="logo">
+    <img src="https://web.archive.org/web/19981202230410im_/http://www.google.com/google.jpg" alt="Google! BETA">
+  </div>
+
+  <div class="search-bar">
+    <p>Search the web using Google!</p>
+    <form method="GET" action="https://www.google.com/search">
+      <input type="text" name="q">
+      <input type="submit" value="Google Search">
+      <input type="submit" name="btnI" value="I'm feeling lucky">
+    </form>
+  </div>
+
+  <div class="content">
+    <div class="column left">
+      <strong>Special Searches</strong><br>
+      <a href="#">Stanford Search</a><br>
+      <a href="#">Linux Search</a>
+    </div>
+    <div class="column center">
+      <a href="#">Help!</a><br>
+      <a href="#">About Google!</a><br>
+      <a href="#">Company Info</a><br>
+      <a href="#">Google! Logos</a>
+    </div>
+    <div class="column right">
+      <strong>Get Google!</strong><br>
+      updates monthly:<br>
+      <input type="text" placeholder="your e-mail"><br>
+      <input type="submit" value="Subscribe"><br>
+      <a href="#">Archive</a>
+    </div>
+  </div>
+
+  <div class="footer">
+    Copyright ©1998 Google Inc.
+  </div>
+</body>
+</html>
