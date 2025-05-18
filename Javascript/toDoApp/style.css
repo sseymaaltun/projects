@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #4DD0E1;
+    display: flex; /* İçeriği yatayda hizalamak için flexbox kullanımı */
+    justify-content: center; /* İçeriği yatayda ortalar */
+    padding-top: 50px;
+}
+
+.container {
+    background: white;
+    padding: 20px; /* İç boşluk (padding) 20 piksel */
+    width: 100%; /* Genişlik %100 (bulunduğu konteynıra göre) */
+    max-width: 800px;
+    border-radius: 20px; /* Kenarları yuvarlatır (10px) */
+    box-shadow: 0 0 15px rgba(0,0,0,0.1); /* Hafif gölge efekti verir */
+}
+
+h1 {
+    text-align: center;
+}
+
+.input-section {
+    display: flex; /* Giriş alanı ve butonu yan yana dizer */
+    gap: 10px; /* Elemanlar arası boşluk (10px) */
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+input {
+  flex: 1;
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff;
+  color: #333;
+  box-sizing: border-box;
+}
+
+input:focus {
+  border-color: #6366f1; 
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #6366f1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #4f46e5; 
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+ul {
+  list-style: none; /* Liste öğelerinin başındaki noktaları kaldırır */
+  padding: 0; /* İç boşluğu sıfırlar */
+  margin-top: 20px; 
+}
+
+li {
+    display: flex;
+    justify-content: space-between;  /* İçerikleri uçlara yaslar */
+    padding: 10px;
+    background: #f0faff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+li.completed span {
+  text-decoration: line-through; /* Üzeri çizili görünüm (tamamlanan görevler için) */
+  color: #ce0808; /* Yazı rengi */
+}
+
+li button {
+  background: red; /* Silme butonunun arka plan rengi */
+  color: white; /* Buton yazı rengi */
+  border: none; /* Kenarlık kaldırılır */
+  padding: 5px 8px; /* Dikeyde 5px, yatayda 8px iç boşluk */
+  border-radius: 5px; 
+  cursor: pointer; 
+}
